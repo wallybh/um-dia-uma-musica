@@ -17,14 +17,14 @@ export default {
     return {
       posts: [
         {
-          id: 0,
-          title: 'Hello world!',
-          content: 'My first blog post! Fuck world!',
-        },
-        {
           id: 1,
           title: 'Fuck World!',
           content: 'My second blog post! Fuck my life!',
+        },
+        {
+          id: 0,
+          title: 'Hello world!',
+          content: 'My first blog post! Fuck world!',
         },
       ],
     };

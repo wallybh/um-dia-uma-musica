@@ -9,7 +9,7 @@
 
 <script>
 
-import appHeader from './components/appheader';
+import appHeader from './components/AppHeader';
 
 export default {
   name: 'app',

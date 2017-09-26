@@ -19,4 +19,16 @@ export default {
 </script>
 
 <style>
+article header h1 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.content {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.2em;
+  margin-left: 10%;
+  margin-right:10%;
+  line-height: 2em;
+  text-align: justify;
+}
 </style>

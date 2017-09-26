@@ -3,7 +3,8 @@
     <post v-for="post in posts"
       v-bind:key="post.id"
       v-bind:title="post.title"
-      v-bind:content="post.content">
+      v-bind:content="post.content"
+      v-bind:videoId="post.videoId">
     </post>
   </main>
 </template>
@@ -16,6 +17,12 @@ export default {
   data() {
     return {
       posts: [
+        {
+          id: 1,
+          title: 'First ride',
+          content: 'Ultimamente estou gostando muito  músicas instrumentais. Músicas com uma pegada mais calma. Tenho uma playlist onde coloco as minhas músicas favoritas e de vez em quando eu procuro algo novo para incrementá-la. Hoje eu conheci a música First ride. Ouvir essa música foi como ouvir o violão conversar diretamente comigo. Como se ele tivesse me contando uma história.',
+          videoId: '170GfcR1i_A',
+        },
         {
           id: 1,
           title: 'Fuck World!',

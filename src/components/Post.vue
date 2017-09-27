@@ -5,6 +5,7 @@
     </header>
     <div class="content">
       <youtube v-if="videoId" :video-id="videoId"></youtube>
+      <spotify v-if="spotifyUri" :spotify-uri="spotifyUri"></spotify>
       {{content}}
     </div>
     <hr>
@@ -12,9 +13,14 @@
 </template>
 
 <script>
+import spotify from './SpotifyEmbed';
+
 export default {
   name: 'Post',
-  props: ['title', 'content', 'videoId'],
+  props: ['title', 'content', 'videoId', 'spotifyUri'],
+  components: {
+    spotify,
+  },
 };
 </script>
 

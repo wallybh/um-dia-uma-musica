@@ -1,5 +1,6 @@
 <template>
   <article>
+    <hr>
     <header>
       <h1>{{title}}</h1>
     </header>
@@ -8,7 +9,6 @@
       <spotify v-if="spotifyUri" :spotify-uri="spotifyUri"></spotify>
       {{content}}
     </div>
-    <hr>
   </article>
 </template>
 
@@ -33,8 +33,17 @@ article header h1 {
   font-family: 'Oxygen', sans-serif;
   font-size: 1.2em;
   margin-left: 10%;
-  margin-right:10%;
+  margin-right: 10%;
   line-height: 2em;
   text-align: justify;
+}
+
+article hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+main article:first-child hr {
+  display: none;
 }
 </style>

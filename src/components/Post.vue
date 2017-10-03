@@ -5,7 +5,7 @@
       <h1>{{title}}</h1>
     </header>
     <div class="content">
-      <youtube v-if="videoId" :video-id="videoId"></youtube>
+      <youtube class="video-wrapper" v-if="videoId" :video-id="videoId"></youtube>
       <spotify v-if="spotifyUri" :spotify-uri="spotifyUri"></spotify>
       {{content}}
     </div>
@@ -45,5 +45,20 @@ article hr {
 
 main article:first-child hr {
   display: none;
+}
+
+.video-wrapper {
+	position: relative;
+  text-align: center;
+  padding-bottom: 56.25%; /* 16:9 */
+	overflow: hidden;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>

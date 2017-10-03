@@ -29,6 +29,7 @@ header {
   padding: 0 16px 0 24px;
   background-color: rgba(0,47,108, 0.8);
   color: #ffffff;
+  z-index: 10;
 }
 
 header span {

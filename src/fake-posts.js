@@ -1,4 +1,11 @@
 export default [{
+  id: 4,
+  title: 'George Benson',
+  friendlyName: 'george-benson',
+  content: 'Eu considero essa a música mais romântica que já ouvi. Claro que tem uma questão pessoal nisso. Meu pai tinha um disco que tinha essa música e ele ouvia muito. Eu era muito criança e nem sabia direito quem estava tocando essa música, mas adorava ouví-la. Depois de muitos anos, estava eu ouvindo George Benson em que eu achava ser a primeira vez. A princípio eu estava ouvindo por recomendação do spotify, até que toca a música <i>Nothing\'s Gonna Change My Love for You</i>. E minha memória da infância desperta em minha mente. Eu achava que o George Benson era o guitarrista, mas ao procurar a música vi que era ele que cantava. Fiquei impressionado com o vídeo. Pois é um vídeo atual, ele já deve ter cantado essa música centenas de vezes. Mas ele canta com muito empenho. E a música trás o mesmo sentimento do que ouvir a versão original.',
+  videoId: 'sgV0wQIs4xk',
+},
+{
   id: 3,
   title: 'The real Slim shady',
   friendlyName: 'the-real-slim-shady',
